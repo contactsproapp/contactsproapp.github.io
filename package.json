@@ -1,0 +1,11 @@
+{
+  "name": "Contacts PRO's Webiste on GitHub",
+  "version": "0.0.0",
+  "private": true,
+  "repository": "https://github.com/contactsproapp/contactsproapp.github.io.git",
+  "author": "Richard Szakacs <richardszkcs@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
