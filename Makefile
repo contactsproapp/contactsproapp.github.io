@@ -1,3 +1,5 @@
+GULP = gulp --gulpfile scripts/gulp/index.js
+
 .PHONY: _install_node_packages
 _install_node_packages:
 	-rm -rf node_modules
@@ -9,8 +11,8 @@ init:
 
 .PHONY: build
 build:
-	@echo "build"
+	${GULP} build
 
 .PHONY: watch
 watch:
-	@echo "watch"
+	${GULP} watch

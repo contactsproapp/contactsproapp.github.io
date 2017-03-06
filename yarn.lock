@@ -10,6 +10,10 @@ ansi-styles@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/ansi-styles/-/ansi-styles-2.2.1.tgz#b432dd3358b634cf75e1e4664368240533c1ddbe"
 
+app-root-path@^1.2.1:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/app-root-path/-/app-root-path-1.4.0.tgz#6335d865c9640d0fad99004e5a79232238e92dfa"
+
 archy@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/archy/-/archy-1.0.0.tgz#f9c8c13757cc1dd7bc379ac77b2c62a5c2868c40"
@@ -129,7 +133,7 @@ end-of-stream@~0.1.5:
   dependencies:
     once "~1.3.0"
 
-escape-string-regexp@^1.0.2:
+escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
@@ -528,6 +532,59 @@ isobject@^2.0.0:
 isobject@^3.0.0, isobject@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/isobject/-/isobject-3.0.1.tgz#4e431e92b11a9731636aa1f9c8d1ccbcfdab78df"
+
+js-lang-exception@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/js-lang-exception/-/js-lang-exception-1.0.2.tgz#9d78bf891377cd5cba737b601ec2d9804110e3f4"
+
+js-partial-array-merge@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/js-partial-array-merge/-/js-partial-array-merge-0.0.2.tgz#9ad7853ab63448c561fe0194a9e13625a8292b2a"
+
+js-partial-default-of@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/js-partial-default-of/-/js-partial-default-of-0.0.2.tgz#f0a72c416a63a6bd0aab8fcec14e55b05452f0a9"
+
+js-partial-foreach@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/js-partial-foreach/-/js-partial-foreach-1.0.5.tgz#b01bb9aeaa54dcf9d8daf06edb1cb693b251313c"
+
+js-partial-is-array@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/js-partial-is-array/-/js-partial-is-array-0.0.2.tgz#4447e9778a34a4fa7f2a6754b6e11d0530729897"
+
+js-partial-is-empty-string@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/js-partial-is-empty-string/-/js-partial-is-empty-string-0.0.1.tgz#042b2df867d5109b00fb10e9480286217c1bfa7d"
+
+js-partial-is-object@0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/js-partial-is-object/-/js-partial-is-object-0.0.2.tgz#86b445b843ab07320baae3a2e24d47accd48c06f"
+
+js-partial-is-present@0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/js-partial-is-present/-/js-partial-is-present-0.0.1.tgz#544dcd7e3c0c72eeac4587567c22aa75075a14e8"
+
+js-partial-is-string@0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/js-partial-is-string/-/js-partial-is-string-0.0.3.tgz#36bc79e18b4140f45c2aa596cf6dbf2cc0d5b2f0"
+
+js-task-path@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.yarnpkg.com/js-task-path/-/js-task-path-2.0.4.tgz#25bf12ad2fa218ec91efab43b6f8bffb236476cc"
+  dependencies:
+    app-root-path "^1.2.1"
+    escape-string-regexp "^1.0.5"
+    extend "^3.0.0"
+    js-lang-exception "^1.0.2"
+    js-partial-array-merge "0.0.2"
+    js-partial-default-of "0.0.2"
+    js-partial-foreach "^1.0.5"
+    js-partial-is-array "0.0.2"
+    js-partial-is-empty-string "0.0.1"
+    js-partial-is-object "0.0.2"
+    js-partial-is-present "0.0.1"
+    js-partial-is-string "0.0.3"
 
 kind-of@^3.0.2:
   version "3.2.2"

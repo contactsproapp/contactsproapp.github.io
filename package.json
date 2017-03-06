@@ -6,6 +6,7 @@
   "author": "Richard Szakacs <richardszkcs@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "js-task-path": "^2.0.4"
   }
 }
