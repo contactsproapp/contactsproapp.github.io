@@ -6,3 +6,11 @@ _install_node_packages:
 .PHONY: init
 init:
 	-make _install_node_packages
+
+.PHONY: build
+build:
+	@echo "build"
+
+.PHONY: watch
+watch:
+	@echo "watch"
